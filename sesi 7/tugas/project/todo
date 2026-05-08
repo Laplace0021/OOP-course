@@ -1,0 +1,25 @@
+//TODO
+
+1. finish all room logic✅ 
+    EnemyRoom ✅
+    CampfireRoom ✅   
+    TrainingRoom ✅   
+    TreasureRoom ✅ 
+    ShopRoom ✅ 
+    BossRoom ✅ 
+2.  gold scaling✅
+    Enemy Room → 20–40 ✅
+    Treasure Room → 70–130 ✅   
+    Others → 0✅   
+    Scaling → x(1.0 / 1.2 / 1.5) ✅ 
+
+INVENTORY ✅
+ITEM + USABLE INTERFACE ✅
+ENEMY POOL PER FLOOR✅   
+ITEM DROP AFTER ROOM CLEAR✅ 
+SHOPROOM ✅
+BOSS ROOM✅
+RANDOM ROOM SYSTEM (LAST)✅
+
+
+                
