@@ -13,7 +13,7 @@ public class ItemFactory {
                 "Wood Sword",
                 "Old wooden sword",
                 ItemRarity.COMMON,
-                50,
+                10,
                 20
         );
     }
@@ -23,7 +23,7 @@ public class ItemFactory {
                 "Iron Sword",
                 "Basic iron sword",
                 ItemRarity.COMMON,
-                120,
+                25,
                 50
         );
     }
@@ -33,7 +33,7 @@ public class ItemFactory {
                 "Steel Sword",
                 "Sharp steel blade",
                 ItemRarity.UNCOMMON,
-                250,
+                40,
                 100
         );
     }
@@ -43,7 +43,7 @@ public class ItemFactory {
                 "Silver Sword",
                 "Knight-class weapon",
                 ItemRarity.UNCOMMON,
-                500,
+                60,
                 180
         );
     }
@@ -53,7 +53,7 @@ public class ItemFactory {
                 "Gold Sword",
                 "Luxurious heavy sword",
                 ItemRarity.RARE,
-                900,
+                90,
                 300
         );
     }
@@ -63,7 +63,7 @@ public class ItemFactory {
                 "Diamond Sword",
                 "Extremely durable blade",
                 ItemRarity.SUPERRARE,
-                1500,
+                125,
                 500
         );
     }
@@ -73,7 +73,7 @@ public class ItemFactory {
                 "Hero Sword",
                 "Legendary sword of heroes",
                 ItemRarity.SPECIAL,
-                5000,
+                250,
                 1000
         );
     }
@@ -87,7 +87,7 @@ public class ItemFactory {
                 "Leather Armor",
                 "Light protection",
                 ItemRarity.COMMON,
-                80,
+                10,
                 20
         );
     }
@@ -97,7 +97,7 @@ public class ItemFactory {
                 "Iron Armor",
                 "Basic iron armor",
                 ItemRarity.COMMON,
-                200,
+                25,
                 50
         );
     }
@@ -107,7 +107,7 @@ public class ItemFactory {
                 "Steel Armor",
                 "Heavy steel armor",
                 ItemRarity.UNCOMMON,
-                400,
+                40,
                 100
         );
     }
@@ -117,7 +117,7 @@ public class ItemFactory {
                 "Silver Armor",
                 "Knight-grade armor",
                 ItemRarity.UNCOMMON,
-                700,
+                60,
                 180
         );
     }
@@ -127,7 +127,7 @@ public class ItemFactory {
                 "Gold Armor",
                 "Expensive royal armor",
                 ItemRarity.RARE,
-                1200,
+                90,
                 300
         );
     }
@@ -137,7 +137,7 @@ public class ItemFactory {
                 "Diamond Armor",
                 "Highly durable armor",
                 ItemRarity.SUPERRARE,
-                2000,
+                125,
                 500
         );
     }
@@ -147,7 +147,7 @@ public class ItemFactory {
                 "Hero Armor",
                 "Legendary armor",
                 ItemRarity.SPECIAL,
-                6000,
+                250,
                 1000
         );
     }
@@ -161,7 +161,7 @@ public class ItemFactory {
                 "Small Potion",
                 "Recover small HP",
                 ItemRarity.COMMON,
-                40,
+                10,
                 1000
         );
     }
@@ -171,7 +171,7 @@ public class ItemFactory {
                 "Medium Potion",
                 "Recover medium HP",
                 ItemRarity.UNCOMMON,
-                100,
+                20,
                 3000
         );
     }
@@ -181,7 +181,7 @@ public class ItemFactory {
                 "Big Potion",
                 "Recover large HP",
                 ItemRarity.RARE,
-                250,
+                35,
                 7000
         );
     }
@@ -191,7 +191,7 @@ public class ItemFactory {
                 "Greater Potion",
                 "Recover massive HP",
                 ItemRarity.SUPERRARE,
-                500,
+                50,
                 15000
         );
     }
@@ -205,7 +205,7 @@ public class ItemFactory {
                 "Small EXP Bottle",
                 "Gain small EXP",
                 ItemRarity.COMMON,
-                5,
+                10,
                 10
         );
     }
@@ -225,7 +225,7 @@ public class ItemFactory {
                 "Large EXP Bottle",
                 "Gain huge EXP",
                 ItemRarity.RARE,
-                50,
+                35,
                 120
         );
     }
@@ -239,7 +239,7 @@ public class ItemFactory {
                 "Militia's Rations Guide",
                 "Improve body endurance",
                 ItemRarity.UNCOMMON,
-                150,
+                25,
                 1000,
                 0,
                 0
@@ -251,7 +251,7 @@ public class ItemFactory {
                 "Field Medic's Notes",
                 "Increase survival capability",
                 ItemRarity.RARE,
-                300,
+                40,
                 2500,
                 0,
                 0
@@ -263,7 +263,7 @@ public class ItemFactory {
                 "Iron Conditioning Manual",
                 "Elite endurance training",
                 ItemRarity.SUPERRARE,
-                700,
+                70,
                 5000,
                 0,
                 0
@@ -277,7 +277,7 @@ public class ItemFactory {
                 "Swordman's Basic",
                 "Basic attack training",
                 ItemRarity.UNCOMMON,
-                150,
+                25,
                 0,
                 50,
                 0
@@ -289,7 +289,7 @@ public class ItemFactory {
                 "Mercenary's Striking Arts",
                 "Advanced combat techniques",
                 ItemRarity.RARE,
-                350,
+                40,
                 0,
                 120,
                 0
@@ -301,7 +301,7 @@ public class ItemFactory {
                 "Master Duelist Treatise",
                 "Master-level swordsmanship",
                 ItemRarity.SUPERRARE,
-                800,
+                70,
                 0,
                 250,
                 0
@@ -315,7 +315,7 @@ public class ItemFactory {
                 "Footman's Guarding Stance",
                 "Basic defensive stance",
                 ItemRarity.UNCOMMON,
-                150,
+                25,
                 0,
                 0,
                 30
@@ -327,7 +327,7 @@ public class ItemFactory {
                 "Knight's Armor Handling",
                 "Proper armor handling",
                 ItemRarity.RARE,
-                350,
+                40,
                 0,
                 0,
                 80
@@ -339,7 +339,7 @@ public class ItemFactory {
                 "Siege Defender's Almanac",
                 "Legendary defensive knowledge",
                 ItemRarity.SUPERRARE,
-                800,
+                70,
                 0,
                 0,
                 180
@@ -353,7 +353,7 @@ public class ItemFactory {
                 "Sergeant Drill Book",
                 "Balanced military training",
                 ItemRarity.RARE,
-                500,
+                100,
                 1500,
                 70,
                 50
@@ -365,7 +365,7 @@ public class ItemFactory {
                 "General's War Diary",
                 "War experience from a veteran",
                 ItemRarity.SUPERRARE,
-                1200,
+                200,
                 3500,
                 150,
                 120
@@ -377,7 +377,7 @@ public class ItemFactory {
                 "Hero's Codex",
                 "Legendary hero knowledge",
                 ItemRarity.SPECIAL,
-                5000,
+                400,
                 10000,
                 500,
                 300

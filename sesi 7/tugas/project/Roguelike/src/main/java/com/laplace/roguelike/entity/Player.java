@@ -15,7 +15,7 @@ public class Player extends Entity {
         super(name, 1, 10000, 1000, 100);
         gold =0;
         exp=0;
-        RequiredExp = 1000;
+        RequiredExp = 100;
         inventory = new Inventory();
     }
 
@@ -42,7 +42,7 @@ public class Player extends Entity {
     public void levelUp() {
         exp -= RequiredExp;
         level++;
-        RequiredExp = 1000 + (getLevel() *250);
+        RequiredExp = 100 + (getLevel() *25);
         newStat();
         heal(getMaxHp() / 4);
     }

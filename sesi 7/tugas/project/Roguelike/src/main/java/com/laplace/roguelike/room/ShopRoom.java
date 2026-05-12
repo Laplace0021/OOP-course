@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import com.laplace.roguelike.Inventory.InventoryEntry;
 import com.laplace.roguelike.entity.Player;
 import com.laplace.roguelike.item.BaseItem;
+import com.laplace.roguelike.item.ItemFactory;
 import com.laplace.roguelike.item.ItemPool;
 import com.laplace.roguelike.utils.InputUtils;
 
@@ -19,27 +20,48 @@ public class ShopRoom extends Room{
         shopItems.clear();
         switch (floor) {
             case 1 -> {
+                shopItems.add(ItemFactory.smallPotion());
+                shopItems.add(ItemFactory.mediumPotion());
+                shopItems.add(ItemFactory.bigPotion());
+                shopItems.add(ItemFactory.greaterPotion());
                 shopItems.add(ItemPool.randomItem(floor, 50, 35, 10, 4, 1));
                 shopItems.add(ItemPool.randomItem(floor, 50, 35, 10, 4, 1));
                 shopItems.add(ItemPool.randomItem(floor, 45, 35, 15, 4, 1));
                 shopItems.add(ItemPool.randomItem(floor, 40, 40, 15, 4, 1));
                 shopItems.add(ItemPool.randomItem(floor, 35, 40, 20, 4, 1));
+                shopItems.add(ItemFactory.smallExpBottle());
+                shopItems.add(ItemFactory.mediumExpBottle());
+                shopItems.add(ItemFactory.largeExpBottle());
             }
 
             case 2 -> {
+                shopItems.add(ItemFactory.smallPotion());
+                shopItems.add(ItemFactory.mediumPotion());
+                shopItems.add(ItemFactory.bigPotion());
+                shopItems.add(ItemFactory.greaterPotion());
                 shopItems.add(ItemPool.randomItem(floor, 40, 35, 15, 7, 3));
                 shopItems.add(ItemPool.randomItem(floor, 40, 35, 15, 7, 3));
                 shopItems.add(ItemPool.randomItem(floor, 35, 35, 20, 7, 3));
                 shopItems.add(ItemPool.randomItem(floor, 30, 40, 20, 7, 3));
                 shopItems.add(ItemPool.randomItem(floor, 25, 40, 25, 7, 3));
+                shopItems.add(ItemFactory.smallExpBottle());
+                shopItems.add(ItemFactory.mediumExpBottle());
+                shopItems.add(ItemFactory.largeExpBottle());
             }
 
             case 3 -> {
+                shopItems.add(ItemFactory.smallPotion());
+                shopItems.add(ItemFactory.mediumPotion());
+                shopItems.add(ItemFactory.bigPotion());
+                shopItems.add(ItemFactory.greaterPotion());                
                 shopItems.add(ItemPool.randomItem(floor, 30, 35, 20, 10, 5));
                 shopItems.add(ItemPool.randomItem(floor, 30, 35, 20, 10, 5));
                 shopItems.add(ItemPool.randomItem(floor, 25, 35, 25, 10, 5));
                 shopItems.add(ItemPool.randomItem(floor, 20, 35, 30, 10, 5));
                 shopItems.add(ItemPool.randomItem(floor, 15, 35, 35, 10, 5));
+                shopItems.add(ItemFactory.smallExpBottle());
+                shopItems.add(ItemFactory.mediumExpBottle());
+                shopItems.add(ItemFactory.largeExpBottle());
             }
         }
     }

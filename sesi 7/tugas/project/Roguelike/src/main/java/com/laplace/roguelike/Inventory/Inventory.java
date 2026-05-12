@@ -51,13 +51,13 @@ public class Inventory {
 
    public void removeItem(BaseItem item){
     items.removeIf(entry ->
-        entry.getItem().equals(item.getName())
+        entry.getItem().getName().equals(item.getName())
     );
    }
 
    public void reduceItem(BaseItem item){
     for (InventoryEntry entry : items) {
-        if (entry.getItem().equals(item.getName())) {
+        if (entry.getItem().getName().equals(item.getName())) {
             entry.TakeQuantity(1);
 
             if (entry.getQuantity()<=0) {
@@ -102,5 +102,6 @@ public class Inventory {
     }
 
     return false;
-}
+    }
+    
 }

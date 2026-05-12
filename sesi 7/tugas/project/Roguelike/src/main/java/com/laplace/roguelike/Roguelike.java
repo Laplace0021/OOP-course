@@ -1,8 +1,6 @@
 package com.laplace.roguelike;
 
 import com.laplace.roguelike.core.GameEngine;
-import com.laplace.roguelike.entity.*;
-import com.laplace.roguelike.room.*;
 
 /**
  *

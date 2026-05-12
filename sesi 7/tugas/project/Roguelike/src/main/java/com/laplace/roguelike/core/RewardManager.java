@@ -18,7 +18,7 @@ public class RewardManager {
             case 1 -> ItemPool.randomItem(floor, 60, 35, 15, 5, 1);
             case 2 -> ItemPool.randomItem(floor, 50, 40, 17, 7, 2);
             case 3 -> ItemPool.randomItem(floor, 40, 45, 20, 10, 4);
-            default -> null;
+            default -> throw new IllegalArgumentException("Invalid floor: " + floor);
         };
         if(reward!=null)player.getInventory().addItem(reward, 1, player);
         System.out.println(player.getName() + " get "+gold+" gold & "+exp+" exp");
@@ -38,7 +38,7 @@ public class RewardManager {
             case 1 -> ItemPool.randomItem(floor, 45, 30, 15, 7, 3);
             case 2 -> ItemPool.randomItem(floor, 40, 28, 17, 10, 5);
             case 3 -> ItemPool.randomItem(floor, 35, 25, 20, 13, 7);
-            default -> null;
+            default -> throw new IllegalArgumentException("Invalid floor: " + floor);
         };
         if(reward!=null)player.getInventory().addItem(reward, 1, player);
             
@@ -47,7 +47,7 @@ public class RewardManager {
             case 1 -> ItemPool.randomItem(floor, 45, 30, 15, 7, 3);
             case 2 -> ItemPool.randomItem(floor, 40, 28, 17, 10, 5);
             case 3 -> ItemPool.randomItem(floor, 35, 25, 20, 13, 7);
-            default -> null;
+            default -> throw new IllegalArgumentException("Invalid floor: " + floor);
         };  
         player.addGold(gold);
         if(reward!=null)player.getInventory().addItem(reward, 1, player);
