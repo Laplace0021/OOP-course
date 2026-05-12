@@ -21,9 +21,10 @@ public class BattleManager {
             }
         }
 
-        if(enemy.getName().equals("Mimic") && !player.isAlive()){
+        if(enemy instanceof Mimic && !player.isAlive()){
             System.out.println(player.getName()+" trying to escape");
             player.setHp(1);
+            return false;
         }
 
         if(enemy instanceof Boss && player.isAlive()){

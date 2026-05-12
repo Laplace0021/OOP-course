@@ -11,9 +11,9 @@ public class EnemySpawner {
     private static Enemy createEnemy(String name, int baseHp, int baseAtk, int baseDef, int clearance, int playerLevel) {
         double multiplier = getMultiplier(clearance, playerLevel);
     
-        int finalHp  = (int)(baseHp  * multiplier * 1.15);
+        int finalHp  = (int)(baseHp  * multiplier * 1.05);
         int finalAtk = (int)(baseAtk * multiplier);
-        int finalDef = (int)(baseDef * (1 + clearance * 0.03));
+        int finalDef = (int)(baseDef * (1 + clearance * 0.01));
         int finalLevel = clearance + (playerLevel / 2);
 
         return new Enemy(name, finalLevel, finalHp, finalAtk, finalDef);

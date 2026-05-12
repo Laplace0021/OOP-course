@@ -17,18 +17,21 @@ public class TreasureRoom extends Room{
         System.out.println("You find a room full of treasure");
         boolean isMimic = RandomUtils.chance(10);
         if (isMimic) {
-            Enemy Mimic = new Mimic(player.getLevel(), 20000, 2000, 150);
-            boolean win = BattleManager.startBattle(player, Mimic);
+            Enemy mimic = new Mimic(player.getLevel(), 20000, 2000, 150);
+            boolean win = BattleManager.startBattle(player, mimic);
             if (!win) {
                 System.out.println(player.getName()+" managed to escape from the mimic");
-                return;
+                System.out.println(player.getName()+" Found another chess");
+                RewardManager.giveTreasureRoomReward(player, floor, false);
+            } else{
+                System.out.println("You defeated the Mimic! The treasure is yours!");
+                RewardManager.giveTreasureRoomReward(player, floor, true);
+                RewardManager.giveTreasureRoomReward(player, floor, true);
             }
-            System.out.println("You defeated the Mimic! The treasure is yours!");
-            RewardManager.giveTreasureRoomReward(player, floor, true);
         } else{
             System.out.println("You opened the chest safely.");
             RewardManager.giveTreasureRoomReward(player, floor, false);
         }
-        RewardManager.giveTreasureRoomReward(player, floor, false);
+
     }
 }

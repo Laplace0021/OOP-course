@@ -57,7 +57,7 @@ public class ItemPool {
     }
 
     public static BaseItem randomItem(int floor, int CRate,int UCRate, int RRate, int SRRate, int SRate){
-        int sum =CRate+UCRate+RRate+SRRate+SRRate;
+        int sum =CRate+UCRate+RRate+SRRate+SRate;
         int roll = RandomUtils.randomInt(1,sum );
         int C = CRate;
         int UC = C+UCRate;
