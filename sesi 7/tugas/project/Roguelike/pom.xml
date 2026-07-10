@@ -29,7 +29,8 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.0</version>
                 <configuration>
-                    <mainClass>com.laplace.roguelike.Roguelike</mainClass>
+                    
+                    <mainClass>com.laplace.roguelike.gui.MainFrame</mainClass>
                 </configuration>
             </plugin>
 
